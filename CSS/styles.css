@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+section {
+    width: 1200px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,47 @@
+.page1 {
+    background: #EEEEEE;
+    height: 700px;
+}
+
+.page1 h1{
+    color: #464547;
+    position: absolute;
+    width: 669px;
+    height: 119px;
+    top: 87px;
+    right: 266px;
+}
+
+.page1 h2{
+    color: #666666;
+    position: absolute;
+    width: 426px;
+    height: 57px;
+    top: 246px;
+    right: 387px;
+}
+
+.page1 p {
+    color: black;
+    line-height: 22px;
+    position: absolute;
+    width: 983px;
+    height: 194px;
+    top: 351px;
+    right: 120px;
+}
+
+.page1 button {
+    background: #55C2D8;
+    font-family: 'Oswald Regular';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 18px;
+    border: 0;
+    position: absolute;
+    width: 115px;
+    height: 36px;
+    top: 586px;
+    right: 543px;
+}

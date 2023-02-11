@@ -1,0 +1,31 @@
+footer {
+    background: #464547;
+    width: 1200px;
+    height: 170px ;
+    position: relative;
+}
+
+footer h3{
+    color: white;
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    top: 21px;
+    left: 181px;
+}
+
+footer img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 19px;
+    left: 145px; 
+}
+
+footer p {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);;
+    line-height: 19px;
+    top: 51px;
+    left: 140px; 
+}
