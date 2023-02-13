@@ -1,34 +1,37 @@
 .page1 {
     background: #EEEEEE;
     height: 700px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr) ;
+    grid-template-rows: repeat(12, 1fr);
 }
 
 .page1 h1{
     color: #464547;
-    position: absolute;
-    width: 669px;
-    height: 119px;
-    top: 87px;
-    right: 266px;
+    grid-column: 3/10;
+    grid-row: 2/4;
+
 }
 
 .page1 h2{
     color: #666666;
-    position: absolute;
-    width: 426px;
-    height: 57px;
-    top: 246px;
-    right: 387px;
+    grid-column: 4/9;
+    grid-row: 5/6;
+
 }
 
-.page1 p {
+.page1 p:first-of-type {
     color: black;
-    line-height: 22px;
-    position: absolute;
-    width: 983px;
-    height: 194px;
-    top: 351px;
-    right: 120px;
+    grid-column: 2/6;
+    grid-row: 7/10;
+    text-align: justify;
+  
+}
+.page1 p:last-of-type {
+    color: black;
+    grid-column: 7/11;
+    grid-row: 7/10;
+    text-align: justify;
 }
 
 .page1 button {
@@ -39,9 +42,7 @@
     color: white;
     border-radius: 18px;
     border: 0;
-    position: absolute;
-    width: 115px;
-    height: 36px;
-    top: 586px;
-    right: 543px;
+    grid-column: 6/7;
+    grid-row: 11/12;
+    height: 25px;
 }

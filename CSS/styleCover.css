@@ -2,6 +2,46 @@
     background-image: url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
     height: 800px;
 }
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    height: 100px;
+    align-items: center;
+}
+
+header > h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    grid-column: 1/2;
+}
+
+ul {
+    grid-column: 2/6;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+li{
+    list-style-type: none;
+    text-transform: uppercase;  
+}
+
+li > a {
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+}
+
+
 .cover img {
     Width: 63px;
     Height: 63px; 
