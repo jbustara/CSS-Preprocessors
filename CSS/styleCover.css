@@ -1,8 +1,15 @@
 .cover {
     background-image: url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
+    background-size: cover;
     height: 800px;
+    width: auto;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
 }
 
+header {
+    grid-row: 1/2;
+}
 nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -45,9 +52,9 @@ li > a {
 .cover img {
     Width: 63px;
     Height: 63px; 
-    position: absolute;
-    right: 567px;
-    top: 274px;
+    grid-row: 4/5;
+    justify-self: center;
+    
 }
 
 .cover h1{
@@ -55,8 +62,9 @@ li > a {
     position: absolute;
     width: 386px;
     height: 118px;
-    top: 350px;
-    right: 406px;
+    grid-row: 5/6;
+    justify-self: center;
+
 }
 
 .cover h2{
@@ -64,6 +72,6 @@ li > a {
     position: absolute;
     width: 426px;
     height: 56px;
-    top: 510px;
-    right: 386px;
+    grid-row: 7/8;
+    justify-self: center;
 }
