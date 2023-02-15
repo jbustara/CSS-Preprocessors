@@ -1,24 +1,21 @@
 .page2 {
     background-image: url('/assets/IMG_1334_72dpi_RGB_\ 1.png');
+    background-size: cover;
     height: 666px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .page2 h1{
     color: white;
-    position: absolute;
-    width: 480px;
-    height: 117px;
-    top: 84px;
-    right: 360px;
+
 }
 
 .page2 h2{
     color: white;
-    position: absolute;
-    width: 390px;
-    height: 102px;
-    top: 474px;
-    right: 415px;
 }
 
 .page2 button {
@@ -29,11 +26,8 @@
     color: white;
     border-radius: 50%;
     border: 0;
-    position: absolute;
     width: 150px;
     height: 150px;
-    top: 254px;
-    right: 525px;
 }
 
 #buttonImg {

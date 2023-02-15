@@ -1,7 +1,7 @@
 footer {
     background: #464547;
-    width: 1200px;
-    height: 170px ;
+    width: auto;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -11,19 +11,23 @@ footer {
 
 }
 
-footer img {
+footer div {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+
+
+}
+div img {
     width: 20px;
     height: 20px;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    display: inline;
 }
 
-footer h3{
+div h3{
     color: white;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    padding-left: 25px;
-    padding-top: 3px;
+    padding: 5px;
 }
 
 footer p:first-of-type {
