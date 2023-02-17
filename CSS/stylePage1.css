@@ -43,10 +43,13 @@
     color: white;
     border-radius: 18px;
     border: 0;
-    height: fit-content;
+    height: fit-conten;
     width: fit-content;
+    padding: 0 35px;
     justify-self: center;
     grid-column: 5/8;
     grid-row: 11/12;
+    transition: all 0.5s linear;
+    transform-origin: left;
 
 }

@@ -54,6 +54,7 @@ li > a {
     Height: 63px; 
     grid-row: 4/5;
     justify-self: center;
+    transition: all 0.5s linear;
     
 }
 
