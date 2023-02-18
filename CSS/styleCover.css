@@ -1,10 +1,17 @@
 .cover {
-    background-image: url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
-    background-size: cover;
-    height: 800px;
-    width: auto;
+    background-image:   url('/assets/Union.png'),
+                        url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position:    right 55px top 30px,
+                            0 0;
+    background-size: 1155px 1020px,
+                     cover;
+    animation: movingstars 5s ease forwards infinite;
+    height: 1200px;
+    width: 1920px;
     display: grid;
     grid-template-rows: repeat(9, 1fr);
+    
 }
 
 header {
@@ -49,7 +56,7 @@ li > a {
 }
 
 
-.cover img {
+#logo {
     Width: 63px;
     Height: 63px; 
     grid-row: 4/5;
@@ -75,4 +82,29 @@ li > a {
     height: 56px;
     grid-row: 7/8;
     justify-self: center;
+}
+
+#stars {
+    width: 720px;
+    height: 1045px;
+    position: absolute;
+    left: 1210px;
+    top: 120px;
+    opacity: 0;
+    animation: lightstars 5s ease forwards infinite;
+}
+
+@keyframes movingstars {
+    0% {background-position:    right 55px top 30px,
+                                0 0;} 
+    50% {background-position:   right 85px top 0px,
+                                0 0;;}
+    100% {background-position:  right 55px top 30px,
+                                0 0;}                             
+}
+
+@keyframes lightstars {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1}
 }

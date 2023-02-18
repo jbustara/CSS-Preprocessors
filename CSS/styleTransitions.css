@@ -1,4 +1,4 @@
-.cover img:hover {
+#logo:hover {
     transform: rotateY(180deg) scale(2,2); 
 }
 

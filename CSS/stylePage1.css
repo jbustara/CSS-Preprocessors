@@ -1,7 +1,7 @@
 .page1 {
     background: #EEEEEE;
     height: auto;
-    width: auto;
+    width: 1920px;
     display: grid;
     grid-template-columns: repeat(12,1fr) ;
     grid-template-rows: repeat(12, 1fr);
@@ -9,7 +9,7 @@
 
 .page1 h1{
     color: #464547;
-    grid-column: 3/11;
+    grid-column: 5/9;
     grid-row: 2/4;
 
 }
@@ -23,14 +23,14 @@
 
 .page1 p:first-of-type {
     color: black;
-    grid-column: 2/6;
+    grid-column: 3/6;
     grid-row: 7/10;
     text-align: justify;
   
 }
 .page1 p:last-of-type {
     color: black;
-    grid-column: 7/12;
+    grid-column: 8/11;
     grid-row: 7/10;
     text-align: justify;
 }
@@ -47,7 +47,7 @@
     width: fit-content;
     padding: 0 35px;
     justify-self: center;
-    grid-column: 5/8;
+    grid-column: 6/8;
     grid-row: 11/12;
     transition: all 0.5s linear;
     transform-origin: left;

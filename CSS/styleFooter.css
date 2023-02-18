@@ -1,6 +1,6 @@
 footer {
     background: #464547;
-    width: auto;
+    width: 1920px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
