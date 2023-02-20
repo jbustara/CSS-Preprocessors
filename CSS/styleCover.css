@@ -2,7 +2,7 @@
     background-image:   url('/assets/Union.png'),
                         url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
     background-repeat: no-repeat, no-repeat;
-    background-position:    right 55px top 30px,
+    background-position:    right 7% top 17%,
                             0 0;
     background-size: 1155px 1020px,
                      cover;
@@ -95,11 +95,11 @@ li > a {
 }
 
 @keyframes movingstars {
-    0% {background-position:    right 55px top 30px,
+    0% {background-position:    right 7% top 17%,
                                 0 0;} 
-    50% {background-position:   right 85px top 0px,
+    50% {background-position:   right 10% top 2%,
                                 0 0;;}
-    100% {background-position:  right 55px top 30px,
+    100% {background-position:  right 7% top 17%,
                                 0 0;}                             
 }
 
