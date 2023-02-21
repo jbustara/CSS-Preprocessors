@@ -6,18 +6,12 @@
     <title>Your First HTML Markup</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="CSS/styleCover.css">
-    <link rel="stylesheet" href="CSS/stylePage1.css">
-    <link rel="stylesheet" href="CSS/stylePage2.css">
-    <link rel="stylesheet" href="CSS/styleFooter.css">
-    <link rel="stylesheet" href="CSS/styleResponsive.css">
-    <link rel="stylesheet" href="CSS/styleTransitions.css">
 </head>
 <body>
-    <!--section: Cover-->
-    <section class="cover">
+    <!--section: Home-->
+    <section class="home">
         <header>
-            <nav>
+            <nav class="home__nav">
                 <h3>Project</h3>
                 <ul>
                 <li><a href="#">Projects</a></li>
@@ -27,8 +21,8 @@
                 </ul>
             </nav>
         </header>
-        <img id="stars" src="/assets/Group 23 (1).png" alt="Stars">
-        <img id="logo" src="/assets/Logo 1.png" alt="Logo">
+        <img class="home__stars" src="/assets/Group 23 (1).png" alt="Stars">
+        <img class="home__logo" src="/assets/Logo 1.png" alt="Logo">
         <h1>Your Headline <br> Here</h1>
         <h2>
             Lorem ipsum dolor sit amet, consectetur
@@ -36,8 +30,8 @@
         </h2>
     </section>
 
-    <!--section: Page 1-->
-    <section class="page1">
+    <!--section: Headline-->
+    <section class="headline">
         <h1>
             This is the Section Headline, Continues to Two Lines
         </h1>
@@ -50,18 +44,17 @@
         <p id="p2">
             Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <button>Read more</button>
+        <button class="headline__button">Read more</button>
     </section>
 
-    <!--section: Page 2-->
-    <section class="page2">
+    <!--section: Learn More-->
+    <section class="learn">
         <h1>
             Learn more <br>
             about our culture...
         </h1>
-        <!--img tag changed for svg because I need use fill attribute for transition-->
-        <button>
-            <svg id="buttonImg" viewBox="0 0 51 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="learn__button">
+            <svg viewBox="0 0 51 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M48.9849 21.6786C50.55 22.3886 50.55 24.6114 48.9849 25.3214L3.32622 46.0336C2.00217 46.6343 0.499998 45.6662 0.499998 44.2123L0.5 2.78773C0.5 1.33381 2.00217 0.365732 3.32623 0.966367L48.9849 21.6786Z" fill="white"/>
             </svg>
         </button>
@@ -73,8 +66,8 @@
     </section>
 
     <!--Footer-->
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer__company">
             <img src="/assets/[PLACEHOLDER LOGO].png" alt="Placeholder Logo">
             <h3>
                 Project

@@ -1,0 +1,55 @@
+* {
+    margin: $global-margin;
+    font-family: $font-family-principal;
+    font-weight: 400;
+    text-align: center;
+    color: $color-principal;
+}
+
+h1 {
+    font-family: $font-family-secundary;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    color: $color-paragraph-general;
+    text-align: justify;
+}
+
+button {
+    font-family: $font-family-button;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+@keyframes movingstars {
+    0% {background-position:    right 7% top 17%,
+                                0 0;} 
+    50% {background-position:   right 10% top 2%,
+                                0 0;;}
+    100% {background-position:  right 7% top 17%,
+                                0 0;}                             
+}
+
+@keyframes lightstars {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1}
+}

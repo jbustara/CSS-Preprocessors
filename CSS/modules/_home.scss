@@ -1,0 +1,73 @@
+.home {
+    background-image:   url('/assets/Union.png'),
+                        url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position:    right 7% top 17%,
+                            0 0;
+    background-size: 1155px 1020px,
+                     cover;
+    animation: movingstars 5s ease forwards infinite;
+    height: 1200px;
+    width: 1920px;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    header {
+        grid-row: 1/2;
+    }
+    &__nav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        height: 100px;
+        align-items: center;
+        h3 {
+            grid-column: 1/2;
+        }
+        ul {
+            grid-column: 2/6;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+        li{
+            list-style-type: none;
+            text-transform: uppercase;  
+            a {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.2em;
+            }
+        }
+    }
+    &__stars {
+        width: 720px;
+        height: 1045px;
+        position: absolute;
+        left: 1210px;
+        top: 120px;
+        opacity: 0;
+        animation: lightstars 5s ease forwards infinite;
+    }
+    &__logo {
+        width: 63px;
+        height: 63px; 
+        grid-row: 4/5;
+        justify-self: center;
+        transition: all 0.5s linear;
+    }
+    h1 {
+        width: 386px;
+        height: 118px;
+        grid-row: 5/6;
+        justify-self: center;
+    }
+    h2{
+        color: $color-subtitles;
+        width: 426px;
+        height: 56px;
+        grid-row: 7/8;
+        justify-self: center;
+    }
+    
+}
